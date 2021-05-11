@@ -1,0 +1,21 @@
+*{box-sizing: border-box;
+font-family: 'Noto Sans', sans-serif;}
+body{margin:0;}
+
+:root
+{
+  --accent:#1263ee;
+  --secondary:#069f43;
+  --third:#e3e3e3;
+  --text-color:#969696;
+}
+button
+{
+  outline: none;
+  border:none;
+  color:white;
+}
+section {padding: 50px 0;}
+.container {max-width: 1200px;}
+/*===============================*/
+/************HEADER**************/
