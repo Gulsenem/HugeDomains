@@ -96,16 +96,20 @@ nav
 .nav-links a:first-child
 {padding-left: 0;
 border:none;}
+.nav-links a:hover
+{color:black;}
 .nav-shop
 {
   font-size:20px;
   color:var(--text-color);
 }
 /**********MAIN***************/
-.container h1
+.section1 p
 {
   font-size:3em;
   color:var(--secondary);
+  margin:20px 0 30px 0;
+  font-weight: bolder;
 }
 .boxes
 {
@@ -117,7 +121,7 @@ border:none;}
   margin-bottom:30px
 }
 .box-text{text-align: left;}
-.box-text span, b, .boxes b
+.box-text span, b, .boxes b, .cards p
 {font-size: 1.5em;}
 .boxes b
 {padding-bottom: 15px;}
@@ -139,8 +143,30 @@ border:none;}
 .text span
 {  padding: 0 10px;}
 .text span +span
-{border-left:1px solid var(--accent);}
-.text a
+{border-left:2px solid rgb(83, 179, 122);}
+.text a, .card a
 {  color:var(--accent);}
-.text a:hover
-{text-decoration: none;}
+.text a:hover, .card a:hover
+{text-decoration: none;
+  opacity: 85%;}
+
+.section2
+{
+  background-color: var(--third);
+  border-top: 1px solid var(--border-color);
+}
+.cards
+{
+  max-width: 700px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card
+{ padding:0 20px;}
+.card i
+{
+  font-size: 70px;
+  color: var(--text-color);
+  font-weight:lighter;
+}
